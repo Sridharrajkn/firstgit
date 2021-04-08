@@ -1,12 +1,5 @@
-PROJECT_NAME = all.exe
-SRC = Outputequal.c support\scan_support.c
-HEADER = header
+div_result.exe: division.c division_logic.c
+	gcc division.c division_logic.c -o div_result.exe
 
-$(PROJECT_NAME): $(SRC)
-	gcc -I $(HEADER) $(SRC) -o $(PROJECT_NAME)
-
-run : $(PROJECT_NAME)
-	$(PROJECT_NAME)
-
-clean:  
-	del /q *.exe
+run: div_result.exe
+	div_result.exe
