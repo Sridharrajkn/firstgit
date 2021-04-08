@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+hii how r u
+=======
+hii how r u
+>>>>>>> 8fe0fbbcacdaf6455e33513301677b21ce6f33db
